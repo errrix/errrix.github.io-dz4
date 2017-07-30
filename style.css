@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "Myriad Pro"; 
+    src: url(MyriadProRegular.woff);
+}
+body {
+	background: #ffffff url("headerbackground.jpg") center top repeat-x;
+	margin: 0 auto;
+}
+.background-header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 89px;
+	background-color: #ffffff;
+	z-index: -1;
+}
+.content{
+	margin: 0 auto;
+	width: 950px;
+}
+header {
+	margin: 0 auto;
+	min-height: 579px;
+	width: 100%;
+}
+.up-header {
+	font-size: 0;
+	width: 100%;
+	min-height: 89px;
+} 
+.leftpart{
+	box-sizing: border-box;
+	padding-top: 31px;
+	padding-left: 59px;
+	min-height: 89px;
+	background: url(logo.png) 0 24px no-repeat;
+	min-width: 50%;
+	display: inline-block;
+	color: #000000;
+	font-family: "Myriad Pro";
+	font-size: 42px;
+	font-weight: 400;
+}
+nav{
+	box-sizing: border-box;
+	display: inline-block;
+	min-width: 50%;
+	padding: 37px 0 0 111px;
+	vertical-align: top;
+	text-align: right;
+}
+nav a{
+
+	padding: 0 15px 0 15px;
+	text-decoration: none;
+	color: #6c6c6c;
+	font-family: "Myriad Pro";
+	font-size: 20px;
+	font-weight: 400;
+}
+nav a:last-child{
+	padding-right: 0;
+}
+.underheader{
+	width: 100%;
+	min-height: 490px;
+	background: url(iphone.png) 3.79% 38px no-repeat;
+}
+header div section{
+	box-sizing: border-box;
+	width: 100%;
+	color: #ffffff;
+	font-family: "Myriad Pro";
+	font-weight: 400;
+	line-height: 44px;
+	font-size: 26px;
+	display: inline-block;
+	padding: 153px 0 0 51.05%;
+}
+section h2{
+	font-size: 42px;
+	padding-bottom: 7px;
+}
+.button{
+	width: 172px;
+	height: 41px;
+	background: #4f95f3;
+	margin: 29px 0 0 52.32%;
+	border-radius: 2px;
+
+}
+.buttonimage{
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 44px;
+	background: url(okay.png) 11px 9px no-repeat;
+	color: #ffffff;
+	font-family: "Myriad Pro";
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 44px;
+}
+.category{
+	width: 100%;
+	font-size: 0px;
+	margin: auto;
+}
+.category article {
+	min-width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+.category article:first-child{
+	min-width: 27.5%;
+}
+.category article:last-child{
+	min-width: 27.5%;
+}
+article a {
+	padding-top: 28px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #5094f2;
+	font-family: "Myriad Pro";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 44px;
+}
+.category article div{
+	margin: 57px auto 0 auto;
+	width: 186px;
+	height: 186px;
+	border-radius: 93px;
+}
+article p{
+	padding-top: 8px;
+	text-align: center;
+	color: #909090;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	font-weight: 400;
+}
+.catblue {
+
+background: #5094f2 url("pen.png") center no-repeat;
+}
+div.catred {
+	
+background: #da4647 url("monitor.png") center no-repeat;
+}
+.catyellow{
+	
+background: #ecbc08 url("cartlittle.png") center no-repeat;
+}
+main{
+	padding: 94px 0 0 2.84%;
+	box-sizing: border-box;
+	color: #6f7173;
+	font-family: "Myriad Pro";
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 44px;
+	width: 100%;
+	min-height: 497px;
+	background: url(cart.png) 1.89% 168px no-repeat;
+}
+main h3{
+	box-sizing: border-box;
+	padding: 0 0 0 49.58%;
+	color: #6f7173;
+	font-family: "Myriad Pro";
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 44px;
+}
+main p{
+	box-sizing: border-box;
+	padding: 24px 0 0 49.58%;
+	color: #909090;
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 36px;
+}
+footer{
+	box-sizing: border-box;
+	padding-bottom: 45px;
+	padding-top: 38px;
+	text-align: center;
+	min-height: 93px;
+	border-top: 1px solid #e6e6e6;
+	color: #909090;
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 36px;
+}
